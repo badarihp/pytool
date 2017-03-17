@@ -1,0 +1,24 @@
+COMMON_CONFIG
+	dictionary_path : ../
+	dictionary_file : dictDiameter.xml
+T6A_CONFIG
+	host_ip : 
+	port : 3868
+	origin_host : seagull
+	origin_realm : pcrf.cisc.com
+    imsi : 262090426000193
+	bearer_id : 0x05
+	bearer_id-sec : 0x06
+	apn : iot-apn-1
+	apn-sec : iot-apn-2
+	non_ip_data : "Testing SCEF-NSC"
+S6T_CONFIG
+	host_ip :
+	port : 3869
+	origin_host : seagull_host_s6t
+	origin_realm : scef.cisco.com
+    imsi : 262090426000193
+	msisdn : 9845837391
+	apn_ext_id : iot-apn-1 : ext-id-1@cisco.com : iot-apn-2 : exi-id-2@cisco.com
+
+	
